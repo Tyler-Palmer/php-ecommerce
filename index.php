@@ -33,24 +33,35 @@
             <div id="logo-text"></div>
             <div id="fore-flower"></div>
         </div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum culpa iure voluptates porro officiis alias saepe ab sit odio nesciunt? Quisquam rem beatae ab velit itaque eligendi ea repellat assumenda.
-            Totam consequatur quisquam dolorem repudiandae repellendus quam placeat veritatis vero iusto praesentium enim in veniam deleniti aliquid omnis aliquam cupiditate esse explicabo, fugit eos autem? Dicta, voluptatum? Iste, rerum voluptatum.
-            Voluptate neque ipsam laboriosam repellat voluptates possimus, laborum dolor velit eligendi, adipisci unde illo repudiandae fuga repellendus maiores corrupti dolore in dignissimos cumque aliquam alias, itaque odit. Non, a modi.
-            Corporis nihil harum voluptates hic fuga officia repellat libero quidem sequi omnis fugit similique error perspiciatis eveniet suscipit natus eius, veniam ab nulla! Fugiat nisi cupiditate, laborum accusamus omnis officia!
-            Alias, in, modi animi sunt aperiam hic eius quia nulla, repellendus ab architecto obcaecati nisi dignissimos minus nobis quasi vitae fuga laudantium impedit! Corrupti natus quae dicta, architecto vel autem!
-            Repudiandae autem ipsum nisi itaque, dignissimos fugit saepe velit reprehenderit. Quam eveniet officiis perferendis! Assumenda, quo, dicta esse adipisci saepe impedit minus, obcaecati praesentium atque alias placeat. Recusandae, consectetur aspernatur?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, vero consequatur harum quasi, laudantium beatae praesentium repellendus quidem ducimus voluptates quibusdam eligendi magnam incidunt perspiciatis sint quam esse libero? Facilis.
-            Similique necessitatibus, rerum accusantium error veniam quos placeat repellendus eum. Quaerat veritatis doloremque autem in, voluptatibus itaque, corporis placeat quia nostrum non aliquam ipsa nemo pariatur earum consequatur voluptates illum.
-            Nisi aspernatur quidem recusandae consequuntur ullam unde. Quam laboriosam quaerat adipisci. Pariatur architecto, necessitatibus hic quod accusantium aliquam maiores ipsa animi perspiciatis debitis soluta, cupiditate eius inventore consectetur placeat veniam.
-            Magni odit minus facere quod pariatur obcaecati vel accusamus. Quos beatae minima, molestiae ipsa commodi cum consectetur distinctio incidunt ab soluta eos voluptates aperiam hic aliquid porro est dolor! Error?
-            Beatae voluptatum eum perspiciatis, dolorum temporibus amet iure reiciendis soluta quia corrupti nesciunt, modi accusamus blanditiis, repellat dignissimos. Quo commodi ratione saepe excepturi dicta earum aliquam reprehenderit, facere repellat soluta.
-            Animi corporis accusantium nam repellat eaque aliquam sunt iure officiis assumenda mollitia inventore, quasi, iste vero! Laudantium saepe optio doloribus vero nesciunt explicabo atque facere ab. Aliquam ipsum neque nam?
-            Possimus ex accusantium, tempore consectetur corrupti odio nesciunt sunt qui expedita culpa. Architecto eligendi laboriosam molestias alias? Nam, a ut at distinctio, dolorum eligendi quidem doloremque dolor autem ipsam dolores?
-            Nihil numquam, obcaecati accusamus laudantium ipsa libero dolor molestiae quo. Beatae nisi enim nobis saepe repudiandae id mollitia, molestias eveniet at asperiores quas nihil temporibus voluptatibus eos, explicabo dolores culpa?
-            Nesciunt cum amet adipisci ullam ex tenetur repudiandae similique laboriosam perspiciatis commodi voluptas magnam doloremque, laborum repellat quo impedit sunt harum tempore error accusamus quaerat deleniti at! Distinctio, labore debitis.
-            Iste omnis perspiciatis ducimus culpa error, eveniet dolor officiis natus tenetur nihil voluptatem cumque recusandae quibusdam, aliquam quo voluptate porro voluptatibus nisi accusantium voluptates libero, voluptas minus. Maiores, quaerat fuga.
-        </p>
+        
+        <div class="container-fluid">
+            <!-- Left Sidebar -->
+            <div class="row">
+                <div class="col-md-2">
+                    Left Sidebar
+                </div>
+                <!-- Main Content -->
+                <div class="col-md-8">
+                    <div class="row justify-content-center">
+                        <h2 class="text center">Featured Products</h2>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <h4>Levis Jeans</h4>
+                            <img src="images/products/men4.png" alt="Levis Jeans" />
+                            <p class="list-price text-danger">List Price: <s>$54.99</s></p>
+                            <p class="price">Our Price: $19.99</p>
+                            <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-1">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Sidebar -->
+                <div class="col-md-2">
+                    Right Sidebar
+                </div>
+            </div>
+        </div>
+
 
     <script>
         jQuery(window).scroll(function(){
