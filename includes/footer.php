@@ -6,6 +6,8 @@
         </div>
 
     <script>
+
+        //Header parallax
         jQuery(window).scroll(function(){
             const vscroll1 = jQuery(this).scrollTop()
             jQuery('#logo-text').css({
@@ -22,6 +24,23 @@
                 "transform" : "translate(0px, -"+vscroll3/2+"px)"
             })
         })
+
+        //Modal function
+        function detailsModal(id){
+            var data = {"id" : id};
+            jQuery.ajax({
+                url : <?=BASEURL;?>+'/www/includes/detailsmodal.php',
+                method : "post",
+                data : data,
+                success : function(data){
+                    jQuery('body').append(data);
+                    jQuery('#details-modal').modal('toggle');
+                },
+                error : function(){
+                    alert('Something went wrong');
+                }  
+            });
+        }
     </script>
     </body>
 </html>
