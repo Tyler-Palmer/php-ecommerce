@@ -20,7 +20,7 @@
                                 <img class="img-thumbnail product" src="<?= $product['image']; ?>" alt="<?= $product['title']; ?>" />
                                 <p class="list-price text-danger">List Price: <s>$<?= $product['list_price']; ?></s></p>
                                 <p class="price">Our Price: $<?=$product['price']; ?></p>
-                                <button type="button" class="btn btn-sm btn-success" onClick="detailsModal(<?= $product['id']; ?>)">Details</button>
+                                <button type="button" class="btn btn-sm btn-success" onClick="detailsmodal(<?= $product['id']; ?>)">Details</button>
                             </div>
                         <?php endwhile ; ?>
                     </div>

@@ -12,5 +12,4 @@ if ($db->connect_error) {
 } 
 echo "Connected successfully";
 
-define('BASEURL', '/php-ecommerce');
-?>
+define('BASEURL', '/php-ecommerce/');
