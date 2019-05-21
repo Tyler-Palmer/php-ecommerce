@@ -1,17 +1,32 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="row justify-content-flex-start">
-            <a href="index.php" class="navbar-brand">Shaunta's Boutique Admin</a>
-            <ul class="nav navbar-nav list-inline">
-                <!-- Menu Items -->
-                <li class="nav-item"><a href="brands.php">Brands</a></li>
-                <!-- <li class="dropdown nav-item">
-                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"><?php echo $parent['category']; ?><span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li class="nav-item"><a href="#"></a></li>
-                    </ul>
-                </li> -->
-            </ul>
-        </div>
-    </div>
+<nav class="navbar navbar-expand-lg bg-light">
+  <a class="navbar-brand" href="#">Shaunta's Boutique Admin</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Brands</a>
+      </li>
+    </ul>
+  </div>
 </nav>
+
+<!-- <nav class="navbar navbar-expand-lg bg-light">
+  <a class="navbar-brand" href="#">Shaunta's Boutique Admin</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Brands</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav> -->
