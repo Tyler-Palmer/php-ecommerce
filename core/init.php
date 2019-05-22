@@ -10,6 +10,7 @@ $db = new mysqli($servername, $username, $password, 'ecommerce-test');
 if ($db->connect_error) {
     die("Connection failed: " . $db->connect_error);
 } 
-echo "Connected successfully";
+// echo "Connected successfully";
 
-define('BASEURL', '/php-ecommerce/');
+require_once '../config.php';
+require_once BASEURL.'helpers/helpers.php';
