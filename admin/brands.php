@@ -4,9 +4,19 @@
     include 'includes/navigation.php';
     
     //Get Brands from DB
-    $sql = "SELECT * FROM brand ORDER BY brand";
-    $results = $db->query($sql);
+    $sql_get = "SELECT * FROM brand ORDER BY brand";
+    $results = $db->query($sql_get);
     $errors = array();
+
+    //Delete Brand
+    if(isset($_GET['delete']) && !empty($_GET['delete'])){
+        $delete_id = (int)$_GET['delete'];
+        $delete_id = sanitize($delete_id);
+        $sql_delete = "DELETE FROM brand WHERE id = '$delete_id'";
+        $db->query($sql_delete);
+        header('Location: brands.php');
+    };
+
     //If Add Form is Submitted
     if(isset($_POST['add_submit'])){
         $brand = sanitize($_POST['brand']);
