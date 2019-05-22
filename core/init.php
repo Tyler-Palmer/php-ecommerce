@@ -12,5 +12,5 @@ if ($db->connect_error) {
 } 
 // echo "Connected successfully";
 
-require_once '../config.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/php-ecommerce/config.php';
 require_once BASEURL.'helpers/helpers.php';
